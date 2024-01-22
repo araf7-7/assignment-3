@@ -42,27 +42,27 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Home</a></li>
-                      <li><a>About</a></li>
-                      <li><a>Pages</a></li>
-                      <li><a>Blog</a></li>
-                      <li><a>Contact</a></li>
+                      <li class="hover:text-[#FF4240]"><a>Home</a></li>
+                      <li class="hover:text-[#FF4240]"><a>About</a></li>
+                      <li class="hover:text-[#FF4240]"><a>Pages</a></li>
+                      <li class="hover:text-[#FF4240]"><a>Blog</a></li>
+                      <li class="hover:text-[#FF4240]"><a>Contact</a></li>
                     </ul>    
                   </div>
-                  <a class="btn-ghost text-4xl font-extrabold">Hockey<span class="text-bgbtn">’</span>s</a>
+                  <a class="text-4xl font-extrabold">Hockey<span class="text-bgbtn">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
                     <li><a class="text-bgbtn">Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a class="hover:text-[#FF4240]">About</a></li>
+                    <li><a class="hover:text-[#FF4240]">Pages</a></li>
+                    <li><a class="hover:text-[#FF4240]">Blog</a></li>
+                    <li><a class="hover:text-[#FF4240]">Contact</a></li>
                   </ul>  
                     
                 </div>
                 <div class="navbar-end">
-                    <div class="mr-6">
+                    <div class="mr-6 hidden lg:flex">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 opacity-50">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                         </svg>
@@ -73,8 +73,7 @@
         </nav>
         <!-- trophy-section -->
         <section class="mt-16">
-            <div>
-              <div class="carousel w-full lg:relative">
+              <div class="carousel rounded-xl w-full lg:relative">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="images/1.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -90,15 +89,46 @@
                   </div>
                 </div> 
               </div>
-              <div class="py-6 px-5 bg-black rounded-xl text-white lg:absolute h-auto  w-full lg:w-[500px] h-[130px] bottom-[-160px] left-[800px]">
+              <div class="py-6 px-5 bg-black rounded-xl text-white lg:absolute h-auto  w-full lg:w-[500px] lg:h-[130px] bottom-[-160px] left-[800px]">
                 <h1 class="font-extrabold text-2xl">Meet all the heroes from the field</h1>
-                <p class="font-light opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing <br> aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="font-light opacity-60">
+                  Hockey is a fast-paced and exhilarating sport that captivates fans around the world. Played on a rectangular ice surface</p>
               </div>
-            </div>
         </section>
     </header>
-    <main>
-
+    <main class="container m-auto mt-[130px]">
+      <section>
+        <div class="border-t-2 border-b-2 border-dashed">
+          <h1 class="font-extrabold text-[#131318] text-4xl text-center py-6">Professional Hockeys Club</h1>
+          <p class="text-center mb-8">Professional hockey clubs serve as the epicenter of the sport,  bringing together skilled athletes, <br> passionate fans, and a rich history of competition.</p>
+        </div>
+        <div class="flex flex-col lg:flex-row gap-5">
+          <div class="mt-[80px]">
+            <div class="radial-progress ml-[150px] mb-5 lg:ml-[110px]  text-[#FF4240]" style="--value:87;" role="progressbar">87%
+            </div>
+            <h1 class="text-xl text-center font-semibold">Prayer Facility</h1>
+            <p class="text-center py-5">Hockey faculty members are <br> responsible for designing  training programs, analyzing game strategies</p>
+          </div>
+          <div class="mt-[80px]">
+            <div class="radial-progress ml-[150px] mb-5 lg:ml-[100px] text-[#49D293]" style="--value:95;" role="progressbar">95%
+            </div>
+            <h1 class="text-xl text-center font-semibold">Experienced Coach</h1>
+            <p class="text-center py-5">An experienced coach in any sport,<br> including hockey, is a highly valuable asset to a team or an athlete.</p>
+          </div>
+          <div class="mt-[80px]">
+            <div class="radial-progress ml-[150px]  mb-5 lg:ml-[110px] text-[#FFB546]" style="--value:90;" role="progressbar">90%
+            </div>
+            <h1 class="text-xl text-center font-semibold">Senior Player</h1>
+            <p class="text-center py-5">A senior player in the world of sports <br>,is an individual who has <br> amassed a wealth of experience and expertise over an extended career.</p>
+          </div>
+          <div class="mt-[80px]">
+            <div class="radial-progress ml-[150px] mb-5 lg:ml-[135px] text-[#4C8DF1]" style="--value:80;" role="progressbar">80%
+            </div>
+            <h1 class="text-xl text-center font-semibold">Training Ground</h1>
+            <p class="text-center py-5">A training ground in the context of hockey <br> is more than just a physical space; it is the crucible where athletes forge their skills.</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
 
